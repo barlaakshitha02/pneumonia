@@ -103,26 +103,13 @@ You can then start the Flask application normally.
 
 # Model Information
 
-Property                Value 
-________________________________________________
- Model                  VGG19 
- Framework              TensorFlow / Keras 
- Image Size             128 × 128 
- Classes                NORMAL, PNEUMONIA 
- Optimizer              SGD 
- Learning Rate          0.0001 
- Loss Function          Categorical Crossentropy 
+![alt text](image-1.png)
 
 -----------------------
 
 # Model Performance
 
- Metric                 Value
- _____________________________ 
- Test Accuracy          78.69% 
- Precision              0.78 
- Recall                 0.79
- F1 Score               0.79
+![alt text](image-2.png)
 
 -----------------------
 
@@ -224,7 +211,7 @@ http://127.0.0.1:5000
 -----------------------
 
 ## PDF Report
-PDF 
+sample PDF link: https://drive.google.com/file/d/1F6ICfRHtbOcFX2YL-eoJPfZWX8VFCJxt/view?usp=drive_link
 -----------------------
 
 # Future Enhancements

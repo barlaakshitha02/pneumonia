@@ -185,15 +185,15 @@ http://127.0.0.1:5000
 -----------------------
 
 ## Loading Screen
-
+![alt text](<Screenshot 2026-07-30 152148.png>)
 -----------------------
 
 ## Prediction Result
-
+![alt text](<Screenshot 2026-07-30 152230.png>)
 -----------------------
 
 ## PDF Report
-
+[text](<c:/Users/shiva/Downloads/Medical_Report (4).pdf>)
 -----------------------
 
 # Future Enhancements

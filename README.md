@@ -181,7 +181,7 @@ http://127.0.0.1:5000
 -----------------------
 
 ## Upload Image
-
+![alt text](image.png)
 -----------------------
 
 ## Loading Screen
@@ -193,7 +193,7 @@ http://127.0.0.1:5000
 -----------------------
 
 ## PDF Report
-[text](<c:/Users/shiva/Downloads/Medical_Report (4).pdf>)
+PDF 
 -----------------------
 
 # Future Enhancements

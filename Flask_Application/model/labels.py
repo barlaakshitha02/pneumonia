@@ -1,0 +1,4 @@
+CLASS_NAMES = {
+    0: "NORMAL",
+    1: "PNEUMONIA"
+}

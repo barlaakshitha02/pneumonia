@@ -357,7 +357,6 @@ generateReportBtn.addEventListener("click", async () => {
         const blob = await response.blob();
 
 
-
         const url = window.URL.createObjectURL(blob);
 
 
@@ -368,7 +367,7 @@ generateReportBtn.addEventListener("click", async () => {
         downloadLink.href = url;
 
 
-        downloadLink.download = "Medical_Report.pdf";
+        downloadLink.download = `${patientName.value.trim().replace(' ', '_')}_Medical_Report.pdf`;
 
 
         document.body.appendChild(downloadLink);

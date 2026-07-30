@@ -124,15 +124,15 @@ def generate_report():
         if os.path.exists(temp_image.name):
             os.remove(temp_image.name)
 
-        return send_file(
+            return send_file(
 
-            pdf_path,
+                pdf_path,
 
-            as_attachment=True,
+                as_attachment=True,
 
-            download_name=f"{patient_name.replace(' ', '_')}_Medical_Report.pdf"
+                download_name=f"{patient_name.strip().replace(' ', '_')}_Medical_Report.pdf"
 
-        )
+            )
 
     except Exception as e:
         print("REPORT ERROR:", e)

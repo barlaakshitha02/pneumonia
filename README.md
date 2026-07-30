@@ -15,6 +15,38 @@ The trained model is integrated with a Flask web application that provides an in
 
 -----------------------
 
+
+
+
+## IMPORTANT NOTE
+
+The trained model (`pneumonia_model.keras`) and the Chest X-Ray dataset are not included in this repository because of their large file size.
+
+After cloning the repository, you must:
+
+1. Download the Chest X-Ray dataset.
+        link: https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images/input?select=chest_xray
+2. Place the dataset in the following directory:
+
+dataset/
+└── chest_xray/
+    ├── train/
+    ├── val/
+    └── test/
+
+3. Train the model using:
+
+python training/train.py
+
+After training completes, the generated model will be saved automatically inside:
+
+flask_application/model/pneumonia_model.keras
+
+You can then start the Flask application normally.
+
+
+
+-----------------------
 # Features
 
 ### Deep Learning

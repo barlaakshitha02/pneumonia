@@ -67,57 +67,6 @@ The trained model is integrated with a Flask web application that provides an in
 
 ## Report Generation
 - ReportLab
------------------------
-
-# Project Structure
-
-Pneumonia-Detection/
-│
-├── dataset/
-|    |__chest_xray
-│        ├── train/
-│        ├── val/
-│        └── test/
-│
-├── training/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── evaluate.py
-│   |── model.py
-│   └── train.py
-│
-├── flask_application/
-│   │
-│   ├── app.py
-│   ├── config.py
-│   │
-│   ├── controllers/
-│   │     └── routes.py
-│   │
-│   ├── services/
-│   │     ├── predictor.py
-|   |     ├── image_preprocessor.py
-│   │     └── report_generator.py
-│   │
-│   ├── model/
-|   |     ├── labels.py
-│   │     └── pneumonia_model.keras
-│   │
-│   ├── reports/
-│   │
-│   ├── static/
-│   │     ├── css/
-│   │     ├── js/
-│   │     ├── report_assets/
-│   │     ├── uploads/
-│   │     └── images/
-│   │
-│   └── templates/
-│         └── index.html
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 -----------------------
 
@@ -228,7 +177,7 @@ http://127.0.0.1:5000
 
 ## Home Page
 
-
+![alt text](<Screenshot 2026-07-30 152023.png>)
 -----------------------
 
 ## Upload Image
@@ -264,7 +213,7 @@ http://127.0.0.1:5000
 
 **Shivakumar**
 
-Java Backend Developer | Python | Flask | TensorFlow | Deep Learning
+Java Backend Developer | MERN full-stack Developer| Python | Flask | TensorFlow | Deep Learning
 
 -----------------------
 

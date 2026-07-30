@@ -28,11 +28,10 @@ After cloning the repository, you must:
         link: https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images/input?select=chest_xray
 2. Place the dataset in the following directory:
 
-dataset/
-└── chest_xray/
-    ├── train/
-    ├── val/
-    └── test/
+dataset/chest_xray/
+        train/
+        val/
+        test/
 
 3. Train the model using:
 
